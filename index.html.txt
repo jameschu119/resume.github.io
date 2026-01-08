@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>张三 - 前端开发工程师</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav>
+    <div class="container">
+      <h1>张三</h1>
+      <ul>
+        <li><a href="#about">关于</a></li>
+        <li><a href="#projects">项目</a></li>
+        <li><a href="#experience">经历</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 首屏 -->
+  <section id="hero" class="hero">
+    <h1>你好，我是张三</h1>
+    <p>热爱创造用户体验的前端开发者</p>
+    <a href="assets/resume.pdf" download class="btn">下载简历</a>
+  </section>
+
+  <!-- 关于我 -->
+  <section id="about" class="about">
+    <h2>关于我</h2>
+    <p>毕业于XX大学，2年前端经验...</p>
+    <div class="skills">
+      <span>HTML/CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Vue</span>
+    </div>
+  </section>
+
+  <!-- 项目展示 -->
+  <section id="projects" class="projects">
+    <h2>我的项目</h2>
+    <div class="project-card">
+      <img src="assets/images/project1.jpg" alt="项目1">
+      <h3>电商后台管理系统</h3>
+      <p>基于 React + Ant Design...</p>
+      <div>
+        <a href="#">在线预览</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+    <!-- 更多项目... -->
+  </section>
+
+  <!-- 联系方式 -->
+  <section id="contact" class="contact">
+    <h2>联系我</h2>
+    <p>📧 zhangsan@email.com</p>
+    <div class="social-links">
+      <a href="https://github.com/xxx">GitHub</a>
+      <a href="https://linkedin.com/in/xxx">LinkedIn</a>
+    </div>
+  </section>
+</body>
+</html>
